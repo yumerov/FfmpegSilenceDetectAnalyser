@@ -1,0 +1,19 @@
+{
+    "name": "yumerov/ffmpeg-silence-detect-analyser-contracts",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Yumerov\\FfmpegSilenceDetectAnalyser\\Contracts\\": "src/"
+        }
+    },
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Yumerov",
+            "email": "levent@yumerov.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    }
+}
