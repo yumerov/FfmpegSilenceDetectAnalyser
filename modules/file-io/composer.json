@@ -1,0 +1,26 @@
+{
+    "name": "yumerov/ffmpeg-silence-detect-analyser-file-io",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Yumerov\\FfmpegSilenceDetectAnalyser\\FileIO\\": "src/",
+            "Yumerov\\FfmpegSilenceDetectAnalyser\\FileIO\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yumerov",
+            "email": "levent@yumerov.com"
+        }
+    ],
+    "require": {
+        "yumerov/ffmpeg-silence-detect-analyser-contracts": "^0.1.0"
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "../contracts"
+    }],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
